@@ -25,7 +25,7 @@ Clone the repository:
 git clone https://github.com/KIPROTICHBETT53/Telegram-bot.git
 cd Telegram-bot
 ```
-### 🏃🏃‍➡️Run the Scrapy spider:
+### 🏃‍➡️Run the Scrapy spider:
 ```bash
 scrapy crawl wroot
 ```
