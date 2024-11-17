@@ -10,9 +10,7 @@ This is a Scrapy web scraper designed to collect car listings and their prices f
 - Easy to extend or modify for other scraping needs
 
 ## Requirements
-
 To run this project, you will need to have the following installed:
-
 - Python 3.x
 - Scrapy
 - Optional: Proxy server setup (for handling rate-limiting or IP blocking)
@@ -28,23 +26,18 @@ Clone the repository:
 git clone https://github.com/KIPROTICHBETT53/Telegram-bot.git
 cd Telegram-bot
 ```
-Run the Scrapy spider:
-
-bash
-Copy code
+### Run the Scrapy spider:
+```bash
 scrapy crawl wroot
+```
 The scraper will start extracting the car listings and their details. The output will be saved in a results.json (or CSV, if configured) file by default.
-
 You can modify the output format by adjusting the Scrapy settings or using the -o option:
-
-bash
-Copy code
+```bash
 scrapy crawl wroot -o output.csv
-Proxy Setup
+```
+### Proxy Setup
 If you're using a proxy server, you can set it up as follows:
-
 Configure your proxy in the settings.py file of your Scrapy project, or use the -s flag when running the spider:
-
 bash
 Copy code
 scrapy crawl wroot -s HTTP_PROXY=http://192.168.1.254:8080
